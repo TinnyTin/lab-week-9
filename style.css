@@ -1,0 +1,32 @@
+/* HTML
+-------------- */
+html {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Div 
+-------------- */
+div {
+    font-size: 1.1em;
+    background-color: #3c6272;
+    color: #f3efec;
+    padding: 1em;
+}
+
+
+/* Responsive
+-------------- */
+@media screen and (max-width: 850px) {
+    div{
+        background-color: #35505c;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div{
+        background-color: #334259;
+        font-size: 0.9em;
+    }
+}
